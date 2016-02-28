@@ -1,0 +1,185 @@
+body {
+	font-family: myfont;
+	src: url('YanoneKaffeesatz-Regular.otf');
+	background-color: #000000;
+	color: #FFF034;
+}
+
+@font-face {
+    font-family: myfont;
+	src: url('YanoneKaffeesatz-Regular.otf');
+}
+
+div {
+    font-family: myfont;
+}
+
+div a:hover {
+	color: white;
+	text-decoration: none; 
+}
+
+div table:hover {
+	color: white;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+	 text-decoration: none; 
+}
+
+/* visited link */
+a:visited {
+    color: white;
+	 text-decoration: none; 
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+	 text-decoration: none; 
+}
+
+/* selected link */
+a:active {
+    color: #000 ;
+	text-decoration: none; 
+}
+
+#now_playing_div {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+	background-color: #000000; 
+	color: #FFF034;
+    height: 185px;
+	-webkit-box-shadow: -1px -4px 31px -1px rgba(245,242,245,0.93);
+	-moz-box-shadow: -1px -4px 31px -1px rgba(245,242,245,0.93);
+	box-shadow: -1px -4px 31px -1px rgba(245,242,245,0.93);
+}
+
+/*Stop button*/
+#songStop{
+
+}
+/*Play or Pause button*/
+#songPlayPause{
+
+}
+/*Song location slider*/
+#songSlider{
+    width: 100%;
+    height: 14px;
+}
+/*Track progress bar*/
+#trackProgress{
+    width: 0px;
+    height: 13px;
+    background-color: #FFF034; 
+}
+
+#songTime {
+	font-size: 12px;
+}
+
+#playButton{
+    height:25px; 
+    width: 25px;
+    border: none;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline:none;
+	
+}
+
+#stopButton{
+    height:25px; 
+    width: 25px;
+    border: none;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline:none;
+	
+}
+
+#forwardButton{
+    height:25px; 
+    width: 50px;
+    border: none;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline:none;
+	
+}
+
+#backwardButton{
+    height:25px; 
+    width: 50px;
+    border: none;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline:none;
+	
+}
+
+.play{background: url('../images/play.png') ;}
+.pause{background: url('../images/pause.png') ;}
+.stop{background: url('../images/stop.png') ;}
+.forward{background: url('../images/forward.png') ;}
+.backward{background: url('../images/backward.png') ;}
+
+.truncate {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.truncateScript {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #FFFFFF;
+}
+
+
+#title {
+color: #FFF034;
+}
+
+#artist {
+color: #FFF034;
+}
+
+#album {
+color: #FFF034;
+}
+
+#logobrand 
+{
+	background-color: #FFF034;
+	color: #000;
+	font-size: 30px;
+	padding-top: 7px;
+	width:200px;height:40px;-webkit-border-radius: 100px;-moz-border-radius: 100px;border-radius: 100px;
+}
+
+.loginButton {
+	height:20px; 
+    width: 40px;
+    border: none;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline:none;	
+	background-color: #FFF034;
+	color: #000;
+	font-size: 30x;	
+	width:150px;height:40px;-webkit-border-radius: 100px;-moz-border-radius: 100px;border-radius: 100px;
+}
